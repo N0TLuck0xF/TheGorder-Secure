@@ -49,6 +49,22 @@ Example: A company funds transactions for its users via gas stations (like Gelat
 
 Instead of writing identity data on-chain, users control cryptographic credentials off-chain.
 Example: Users store their DIDs in a wallet (like SpruceID, ION, or Sovrin) and only verify them on-chain when necessary.
+
+🔑 Key Components of IAM
+✅ Identity Management
+User Authentication – Verifies a user’s identity (e.g., passwords, biometrics, multi-factor authentication).
+Single Sign-On (SSO) – Allows users to log in once and access multiple apps without re-authenticating.
+Multi-Factor Authentication (MFA) – Requires multiple proofs of identity (e.g., password + fingerprint).
+Biometric Authentication – Uses fingerprints, facial recognition, or retina scans for access control.
+🔒 Access Control
+Role-Based Access Control (RBAC) – Users get permissions based on roles (e.g., admin, employee, guest).
+Least Privilege Access – Users only get the minimum access necessary to do their job.
+Policy-Based Access Control (PBAC) – Access is granted based on security policies (e.g., time, location).
+🏢 Enterprise & Cloud Integration
+Cloud IAM – Manages access to cloud services (e.g., AWS IAM, Azure AD, Google IAM).
+Zero Trust Security – No user or device is automatically trusted; authentication is always required.
+Identity Federation – Enables cross-system authentication (e.g., logging into third-party apps with Google credentials).
+
 5️⃣ Non-Smart Contract Blockchains
 
 Use blockchains that don’t require smart contract execution for identity (e.g., IOTA, Hedera, or Solana’s Proof of History).
